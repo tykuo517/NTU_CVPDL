@@ -1,4 +1,4 @@
-## Solving Data Imbalance Problem via Data Augmentation
+# Solving Data Imbalance Problem via Data Augmentation
 ### Environment
 Details list in "environment.yml"
 
