@@ -2,11 +2,13 @@
 ### Environment
 Details list in "environment.yml"
 
+
 ### Image Captioning
 `S1_image_captioning.ipynb`
 1. Compare the performance of three different pretrained models for generating prompts.
 2. Choose the best one and generates prompts for images in training set.
 3. The results will be stored in `./code/image_captioning.json`.
+
 
 ### Data Augmentation
 `S2_data_augmentation.ipynb`
@@ -19,6 +21,7 @@ Details list in "environment.yml"
 3. The generated images will be in `./code/GLIGEN/generation_samples` with designated folder name.
 4. The information of the images being generated for data augmentation will be stored in `image_gen.json`.
 5. After generating, move the generated images to training set folder and update the annotations `train.json`.
+
 
 ### Train Object Detection Model
 1. Download pretrained model of DINO, and place it under `./code/DINO/models`
